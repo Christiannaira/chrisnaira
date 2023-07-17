@@ -1,7 +1,7 @@
 import Hero from "./Hero";
 import About from "./About";
 import Review from "./Reviews";
-import Showcase from "./Showcase";
+import Portfolio from "./Portfolio";
 
 function Layout() {
     return (
@@ -10,7 +10,7 @@ function Layout() {
             <Hero /> <br />
             <About /> <br />
             <Review /> <br />
-            <Showcase /> <br />
+            <Portfolio /> <br />
 
         </>
     )
