@@ -3,7 +3,11 @@
 function About() {
     return (
         <>
-            asdasd
+            <section className="about" id="about">
+                <div className="about-content">
+                    asdasd
+                </div>
+            </section>
         </>
     )
 }

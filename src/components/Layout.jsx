@@ -7,10 +7,8 @@ function Layout() {
     return (
         <>
 
-            <Hero /> <br />
-            <About /> <br />
-            <Review /> <br />
-            <Portfolio /> <br />
+            <Hero />
+            <About />
 
         </>
     )

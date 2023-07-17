@@ -5,8 +5,12 @@ function App() {
 
   return (
     <>
+      <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"></link>
 
       <Layout />
+
+
 
     </>
   )
