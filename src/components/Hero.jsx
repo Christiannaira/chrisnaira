@@ -8,17 +8,17 @@ function Hero() {
 
 
 
-                <div className="hero-content">
+                <div className="hero-content container">
 
                     <div className="hero-main">
 
                         <h2>Hi there! </h2>
                         <h1 className="text">I'm Christian Naira</h1>
-                        <h3>Junior Web Developer | UI/UX Designer</h3>
-                        <p>I love building web applications interactively, responsively, and aesthetically.</p>
+                        <h3 className="text">Junior Web Developer | Web Designer</h3>
+                        <p>I love designing & building web applications responsively, <br />interactively and aesthetically through React projects.</p>
 
                         <div className="hero-btn d-flex align-items-center">
-                            <a href="#" className="btn btn-primary">Let's Talk!</a>
+                            <a href="#" className="btn btn-primary">Say Hello!</a>
 
                             <div className="hero-social-links">
                                 <a href="https://github.com/Christiannaira" target="_blank"><i class='bx bxl-github'></i></a>
