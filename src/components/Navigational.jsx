@@ -7,20 +7,24 @@ function Navigational() {
         let hero = document.getElementById("hero");
         let nav = document.getElementById("navigation");
 
-        // nav.style.backgroundColor = '#fff';
+        if (bx.className.includes("bx bx-moon")) {
 
-        // if (bx.className.includes('bx-moon')) {
-        //     bx.className = 'bx bxs-moon';
+            hero.style.backgroundColor = "#ccc";
+            nav.style.backgroundColor = "#ccc";
+            bx.className = bx.className.replace("bx bx-moon", "bx bxs-moon")
 
-        //     hero.style.backgroundColor = '#fff';
-        // } else {
-        //     bx.className = 'bx bxs-moon ';
+            hero.className += " lightmode";
+            nav.className += " nav-lightmode";
 
-        //     hero.style.backgroundColor = '#222';
+        } else {
 
-        // }
+            hero.style.backgroundColor = "#222";
+            nav.style.backgroundColor = "#222";
+            bx.className = bx.className.replace("bx bxs-moon", "bx bx-moon")
 
-        alert("this is dark mode")
+            hero.className = "hero";
+            nav.className += "navigation";
+        }
 
     }
 

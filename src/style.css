@@ -2,8 +2,36 @@
 
 * {
     font-family: 'JetBrains Mono', monospace;
-
 }
+
+.cursor {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #c6c6c6;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+    z-index: 1000;
+}
+
+.cursor2 {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #c6c6c6;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .15s;
+    z-index: 1000;
+}
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -47,15 +75,25 @@
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
-    transition: .45s ease;
+    transition: .1s ease-out;
+    letter-spacing: 10px;
 }
 
 .navigation-content a:hover {
-    letter-spacing: 10px;
+    color: yellow;
 }
 
 .navigation-content i {
     color: #fff;
+}
+
+.bxs-moon {
+    color: #222 !important;
+}
+
+.nav-lightmode .logo,
+.nav-lightmode a {
+    color: #222;
 }
 
 /*hero section design*/
@@ -71,7 +109,7 @@
 
 
 h1.text {
-    font-size: 3.5rem;
+    font-size: 3rem;
     letter-spacing: 10px;
     font-family: monospace;
     border-right: 5px solid;
@@ -84,8 +122,8 @@ h1.text {
     font-family: 'Poppins', sans-serif;
     background-color: yellow;
     color: #222;
-}
 
+}
 
 h3.text {
     margin-top: 1rem;
@@ -168,4 +206,16 @@ h3.text {
 .hero-social-links a:hover {
     background-color: yellow;
     transform: rotate(360deg);
+}
+
+
+.lightmode h1.text {
+    background-color: #222;
+    color: yellow;
+}
+
+.lightmode h3.text,
+.lightmode h2,
+.lightmode p {
+    color: #222;
 }

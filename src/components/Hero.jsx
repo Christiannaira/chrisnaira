@@ -6,15 +6,13 @@ function Hero() {
 
             <section className="hero" id="hero">
 
-
-
                 <div className="hero-content container-sm  ">
 
                     <div className="hero-main ">
 
                         <h2>Hi there! </h2>
                         <h1 className="text">I'm Christian Naira</h1>
-                        <h3 className="text">Junior Web Developer | Web Designer</h3>
+                        <h3 className="text">Junior Full-Stack Developer | Web Designer</h3>
                         <p>I love designing & building web applications responsively, <br />interactively and aesthetically through React projects.</p>
 
                         <div className="hero-btn d-flex align-items-center">
