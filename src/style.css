@@ -4,6 +4,10 @@
     font-family: 'JetBrains Mono', monospace;
 }
 
+section {
+    padding: 3rem;
+}
+
 .cursor {
     position: fixed;
     width: 50px;
@@ -162,7 +166,7 @@ h3.text {
 
 .hero-content p {
     margin-top: 2rem;
-    color: #fff;
+    color: #ccc;
     font-weight: 100;
 }
 
@@ -218,4 +222,56 @@ h3.text {
 .lightmode h2,
 .lightmode p {
     color: #222;
+}
+
+/*about section design*/
+
+
+
+.about .col-md-6 {
+    margin-bottom: 1rem;
+}
+
+.about .col-md-6 span {
+    color: yellow;
+    font-weight: 700;
+}
+
+.about-profile img.p1 {
+    border-left: 10px solid yellow;
+    position: relative;
+    display: block;
+}
+
+.about-profile img.p2 {
+    border-right: 10px solid yellow;
+    position: relative;
+    display: block;
+}
+
+
+
+.about-main h2 {
+    font-size: 6rem;
+    letter-spacing: 10px;
+    font-weight: 800;
+}
+
+.about-text {
+    background-color: #222;
+    padding: 2rem;
+}
+
+.about-text p {
+    color: #f1f1f1;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.highlights {
+    padding: 2rem;
+    background-color: yellow;
+    color: #222 !important;
+    font-weight: 400 !important;
+    border-radius: 20px;
 }
