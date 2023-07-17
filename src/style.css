@@ -25,22 +25,50 @@
     background: yellow;
 }
 
+
+/*navigational section design*/
+
+.navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #222;
+}
+
+.navigation-content .logo {
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 10px;
+}
+
+.navigation-content a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: .45s ease;
+}
+
+.navigation-content a:hover {
+    letter-spacing: 10px;
+}
+
+.navigation-content i {
+    color: #fff;
+}
+
 /*hero section design*/
 
 .hero {
     background: #222;
-    height: 100vh;
-
-}
-
-.hero-content {
-
-    border-bottom: none;
     display: flex;
     align-items: center;
     height: 100vh;
     justify-content: center;
 }
+
+
 
 h1.text {
     font-size: 3.5rem;
@@ -60,6 +88,7 @@ h1.text {
 
 
 h3.text {
+    margin-top: 1rem;
     font-size: 1.5rem;
     letter-spacing: 10px;
     font-family: monospace;
@@ -139,58 +168,4 @@ h3.text {
 .hero-social-links a:hover {
     background-color: yellow;
     transform: rotate(360deg);
-}
-
-/*skills section design*/
-
-.about-content,
-.skills-content {
-    max-width: 900px;
-}
-
-.skillset-content {
-    margin: 3rem 0;
-}
-
-.skillset {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.skillset span {
-    color: #f2f2f2;
-    background-color: #222;
-    padding: 3rem;
-    margin: 1px;
-}
-
-/*about section design*/
-
-.about-content p {
-    border-left: 1px solid #444;
-    padding-left: 1rem;
-}
-
-.about-content p .main-par {
-    display: block;
-    background-color: #222;
-    color: #ccc;
-    font-weight: 100;
-    padding: 1.5rem;
-}
-
-.about .btn {
-    background-color: yellow;
-    border: none;
-    outline: none;
-    border-radius: 0;
-    padding: 1rem 2rem;
-    color: #222;
-    border-radius: 30px;
-}
-
-.about .btn:hover {
-    transition: .45s ease !important;
-    transform: translateX(10px);
-    opacity: .6;
 }

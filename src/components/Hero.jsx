@@ -8,9 +8,9 @@ function Hero() {
 
 
 
-                <div className="hero-content container">
+                <div className="hero-content container-sm  ">
 
-                    <div className="hero-main">
+                    <div className="hero-main ">
 
                         <h2>Hi there! </h2>
                         <h1 className="text">I'm Christian Naira</h1>
