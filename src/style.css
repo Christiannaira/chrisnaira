@@ -81,10 +81,11 @@ section {
     font-size: 1rem;
     transition: .1s ease-out;
     letter-spacing: 10px;
+    transition: .10s ease-in;
 }
 
 .navigation-content a:hover {
-    color: yellow;
+    transform: rotate(10deg);
 }
 
 .navigation-content i {
@@ -95,8 +96,8 @@ section {
     color: #222 !important;
 }
 
-.nav-lightmode .logo,
-.nav-lightmode a {
+.lightmode .logo,
+.lightmode a {
     color: #222;
 }
 
@@ -123,7 +124,7 @@ h1.text {
     animation: typing 1s steps(18),
         cursor .4s step-end infinite alternate;
     color: #fff;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     background-color: yellow;
     color: #222;
 
@@ -158,10 +159,15 @@ h3.text {
     }
 }
 
+.hero-content {
+    margin: 0 15rem;
+}
+
 .hero-content h2,
 .hero-content h3 {
     color: #f1f1f1;
     font-weight: 300;
+
 }
 
 .hero-content p {
@@ -213,9 +219,24 @@ h3.text {
 }
 
 
+.hero img {
+    border-radius: 30px;
+    display: block;
+    position: absolute;
+    bottom: 3rem;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(50%) rotate(180deg);
+    border: 3px solid yellow;
+}
+
+.lightmode .hero img {
+    border-color: #222
+}
+
 .lightmode h1.text {
-    background-color: #222;
-    color: yellow;
+    background-color: yellow;
+    color: #333;
 }
 
 .lightmode h3.text,
@@ -224,54 +245,10 @@ h3.text {
     color: #222;
 }
 
+.lightmode .hero,
+.lightmode .navigation {
+    background-color: #ccc;
+}
+
+
 /*about section design*/
-
-
-
-.about .col-md-6 {
-    margin-bottom: 1rem;
-}
-
-.about .col-md-6 span {
-    color: yellow;
-    font-weight: 700;
-}
-
-.about-profile img.p1 {
-    border-left: 10px solid yellow;
-    position: relative;
-    display: block;
-}
-
-.about-profile img.p2 {
-    border-right: 10px solid yellow;
-    position: relative;
-    display: block;
-}
-
-
-
-.about-main h2 {
-    font-size: 6rem;
-    letter-spacing: 10px;
-    font-weight: 800;
-}
-
-.about-text {
-    background-color: #222;
-    padding: 2rem;
-}
-
-.about-text p {
-    color: #f1f1f1;
-    font-weight: 100;
-    font-size: 1rem;
-}
-
-.highlights {
-    padding: 2rem;
-    background-color: yellow;
-    color: #222 !important;
-    font-weight: 400 !important;
-    border-radius: 20px;
-}

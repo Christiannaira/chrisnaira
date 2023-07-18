@@ -1,4 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import About from "./About";
+import Hero from "./Hero";
+import Portfolio from './Portfolio';
 
 function Index() {
     return (
@@ -6,7 +9,9 @@ function Index() {
             <BrowserRouter>
                 <Routes>
 
-                    <Route />
+                    <Route index element={<Hero />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/portfolio" element={<Portfolio />} />
 
                 </Routes>
             </BrowserRouter>

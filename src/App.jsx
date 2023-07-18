@@ -1,23 +1,30 @@
-import Layout from "./components/Layout"
+import Layout from "./components/Layout";
+import { useEffect } from "react";
 
 function App() {
 
-  let cursor = document.querySelector(".cursor");
-  let cursor2 = document.querySelector(".cursor2");
+  useEffect(() => {
+    let cursor = document.querySelector(".cursor");
+    let cursor2 = document.querySelector(".cursor2");
 
 
-  document.addEventListener("mousemove", function (e) {
+    document.addEventListener("mousemove", function (e) {
 
-    cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+      cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
 
-  })
+    })
+  }, []);
 
   return (
     <>
       <link rel="stylesheet"
         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"></link>
 
+
       <Layout />
+
+
+
 
 
 

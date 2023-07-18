@@ -8,7 +8,7 @@ function About() {
     return (
         <>
 
-            <section className="about" id="about">
+            {/* <section className="about" id="about">
                 <div className="about-content container">
 
                     <div className="about-main">
@@ -46,6 +46,14 @@ function About() {
                     </div>
 
                 </div>
+            </section> */}
+
+            <section className="about" id="about">
+
+                <div className="about-content">
+                    asddas
+                </div>
+
             </section>
 
         </>

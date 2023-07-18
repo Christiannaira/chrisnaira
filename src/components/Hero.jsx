@@ -1,4 +1,4 @@
-
+import ArrowDown from '../assets/down.gif';
 
 function Hero() {
     return (
@@ -29,10 +29,8 @@ function Hero() {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
-
+                <img src={ArrowDown} alt="" width={'50px'} />
             </section>
 
         </>
