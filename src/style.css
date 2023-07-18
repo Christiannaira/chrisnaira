@@ -241,12 +241,25 @@ h3.text {
 
 .lightmode h3.text,
 .lightmode h2,
-.lightmode p {
+.lightmode p,
+.lightmode .portfolio-main h2,
+.lightmode .skills-main h2 {
     color: #222;
 }
 
+.lightmode .portfolio-projects .tools h4 {
+    color: #222;
+}
+
+.lightmode .portfolio-projects .tools h4 span {
+    color: #ccc;
+    background-color: #222;
+}
+
 .lightmode .hero,
-.lightmode .navigation {
+.lightmode .navigation,
+.lightmode .portfolio,
+.lightmode .skills {
     background-color: #ccc;
 }
 
@@ -264,7 +277,13 @@ h3.text {
     margin: 0 15rem;
 }
 
-.portfolio-main h1 {
+.portfolio-main span {
+    font-size: 2rem;
+    font-weight: 100;
+    border-top: 3px solid #222;
+}
+
+.portfolio-main h2 {
     color: #fff;
     font-size: 7rem;
 }
@@ -311,4 +330,44 @@ h3.text {
 
 .portfolio-projects .project03 {
     background-image: linear-gradient(to top, rgba(15, 46, 219, 0.8), rgba(52, 202, 89, .6)), url('./assets/project03.png');
+}
+
+.portfolio-projects .tools {
+    margin-top: 10px;
+}
+
+.portfolio-projects .tools h4 {
+    color: #ccc;
+    font-weight: 800;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-projects .tools h4 span {
+    margin: 3px 1px;
+    background-color: #ccc;
+    color: #222;
+    padding: 0 5px;
+    font-weight: 100;
+}
+
+
+
+/*skills section design*/
+
+.skills {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-content {
+    margin: 0 15rem;
+}
+
+.skills-main h2 {
+    color: #fff;
+    font-size: 7rem;
 }
