@@ -1,4 +1,3 @@
-import FastForward from '../assets/fast-forward.gif';
 import Wave from '../assets/wave.gif'
 import Happy from '../assets/happy.gif';
 import Profile from '../assets/profile.jpg';;
