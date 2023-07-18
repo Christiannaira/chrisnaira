@@ -44,7 +44,7 @@ function Navigational() {
                 <div className="navigation-content d-flex align-items-center justify-content-around">
 
                     <h2 className="logo">Chris.</h2>
-                    <a href="/portfolio">Portfolio</a>
+                    <a href="#portfolio">Portfolio</a>
                     <a href="/about">About</a>
                     <h2 onClick={() => {
                         Turn();

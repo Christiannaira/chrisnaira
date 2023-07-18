@@ -6,7 +6,7 @@ function Hero() {
 
             <section className="hero" id="hero">
 
-                <div className="hero-content container-sm  ">
+                <div className="hero-content container-sm b ">
 
                     <div className="hero-main ">
 

@@ -17,6 +17,7 @@ function Layout() {
 
             <Navigational />
             <Index />
+            <Portfolio />
 
 
         </>

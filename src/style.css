@@ -251,4 +251,26 @@ h3.text {
 }
 
 
-/*about section design*/
+/*portfolio section design*/
+
+.portfolio {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-content {
+    margin: 0 15rem;
+}
+
+.portfolio-main h1 {
+    color: #fff;
+    font-size: 7rem;
+}
+
+.portfolio-projects .project {
+    background-color: #fff;
+    padding: 5rem;
+    margin: 1rem 0;
+}
