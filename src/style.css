@@ -269,8 +269,46 @@ h3.text {
     font-size: 7rem;
 }
 
+
 .portfolio-projects .project {
-    background-color: #fff;
-    padding: 5rem;
-    margin: 1rem 0;
+    opacity: .3;
+    position: relative;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: .4s ease;
+    margin: 2rem 0 0;
+}
+
+.portfolio-projects .project01 {
+    background-image: linear-gradient(to top, rgba(255, 255, 0, .6), rgba(255, 0, 0, .2)), url('./assets/project01.png');
+}
+
+.portfolio-projects .project:hover {
+    opacity: 1;
+}
+
+.portfolio-projects .project h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8rem;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 3px 3px 3px#222;
+}
+
+
+.portfolio-projects .project:hover {
+    transform: skewX(-5deg);
+}
+
+.portfolio-projects .project02 {
+    background-image: linear-gradient(to top, rgba(15, 46, 219, 0.8), rgb(128, 0, 128, .5)), url('./assets/project02.png');
+}
+
+.portfolio-projects .project03 {
+    background-image: linear-gradient(to top, rgba(15, 46, 219, 0.8), rgba(52, 202, 89, .6)), url('./assets/project03.png');
 }
