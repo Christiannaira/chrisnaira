@@ -30,7 +30,8 @@ function Hero() {
                         </div>
                     </div>
                 </div>
-                <img src={ArrowDown} alt="" width={'50px'} />
+                <a href="#portfolio" className='arrowdown'> <img src={ArrowDown} alt="" width={'50px'} /></a>
+
             </section>
 
         </>

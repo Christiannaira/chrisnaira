@@ -20,6 +20,7 @@ function Layout() {
             <Index />
             <Portfolio />
             <Skills />
+            <Review />
 
 
         </>

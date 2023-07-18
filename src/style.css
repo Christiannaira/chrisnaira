@@ -96,6 +96,11 @@ section {
     color: #222 !important;
 }
 
+.bx:hover {
+    transition: .1s ease-in;
+    transform: scale(1.2) rotate(20deg);
+}
+
 .lightmode .logo,
 .lightmode a {
     color: #222;
@@ -221,13 +226,21 @@ h3.text {
 
 .hero img {
     border-radius: 30px;
+    border: 3px solid yellow;
+}
+
+.arrowdown {
     display: block;
     position: absolute;
     bottom: 3rem;
     cursor: pointer;
     left: 50%;
     transform: translateX(50%) rotate(180deg);
-    border: 3px solid yellow;
+    transition: .3s ease;
+}
+
+.arrowdown:hover {
+    bottom: 4rem;
 }
 
 .lightmode .hero img {
@@ -243,8 +256,13 @@ h3.text {
 .lightmode h2,
 .lightmode p,
 .lightmode .portfolio-main h2,
+.lightmode .portfolio-main span,
 .lightmode .skills-main h2 {
     color: #222;
+}
+
+.lightmode .portfolio-main span {
+    border-top-color: #222;
 }
 
 .lightmode .portfolio-projects .tools h4 {
@@ -279,8 +297,9 @@ h3.text {
 
 .portfolio-main span {
     font-size: 2rem;
+    color: #fff;
     font-weight: 100;
-    border-top: 3px solid #222;
+    border-top: 3px solid #fff;
 }
 
 .portfolio-main h2 {
@@ -361,13 +380,60 @@ h3.text {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .skills-content {
     margin: 0 15rem;
+    border-bottom: 1px solid #ccc;
 }
 
 .skills-main h2 {
     color: #fff;
     font-size: 7rem;
+}
+
+.skills-category {
+    margin: 2rem 0;
+}
+
+.skills-category .category {
+    padding: 1.5rem;
+}
+
+.skills-category .category h2 {
+    display: inline-block;
+    background-color: #fff;
+}
+
+.skills-category .category p {
+    color: #ccc;
+    font-weight: 100;
+}
+
+/*review section design*/
+
+.reviews {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.reviews-content {
+    margin: 0 15rem;
+
+}
+
+.reviews-main h2 {
+    color: #fff;
+    font-size: 7rem;
+}
+
+.reviews-main span {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 100;
+    border-top: 3px solid #fff;
 }
