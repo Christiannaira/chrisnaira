@@ -2,6 +2,7 @@ import Wave from '../assets/wave.gif'
 import Happy from '../assets/happy.gif';
 import Profile from '../assets/profile.jpg';;
 import Profile2 from '../assets/profile2.jpg';;
+import FastForward from '../assets/fast-forward.gif';
 
 function About() {
     return (
@@ -49,8 +50,13 @@ function About() {
 
             <section className="about" id="about">
 
-                <div className="about-content">
-                    asddas
+                <div className="about-content container-sm">
+
+                    <div className="about-main ">
+                        <span>know more</span>
+                        <h2 className='d-flex align-items-center'>ABOUT ME <img src={FastForward} alt="" width={'100px'} className='rounded-pill ms-3' /> </h2>
+                    </div>
+
                 </div>
 
             </section>

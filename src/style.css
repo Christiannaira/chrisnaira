@@ -296,10 +296,11 @@ h3.text {
 }
 
 .portfolio-main span {
-    font-size: 2rem;
+    font-size: 15px;
     color: #fff;
     font-weight: 100;
-    border-top: 3px solid #fff;
+    border-top: 1px dashed #fff;
+    letter-spacing: 10px;
 }
 
 .portfolio-main h2 {
@@ -398,17 +399,35 @@ h3.text {
 }
 
 .skills-category .category {
+    position: relative;
     padding: 1.5rem;
 }
 
 .skills-category .category h2 {
     display: inline-block;
     background-color: #fff;
+    letter-spacing: 10px;
 }
 
 .skills-category .category p {
+    position: relative;
+    margin-top: 1rem;
+    border-left: 1px solid #ccc;
+    padding-left: 1rem;
     color: #ccc;
     font-weight: 100;
+}
+
+.skills-category p::before {
+    content: '';
+    width: 3px;
+    padding: 3px;
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 10002;
+    top: -3px;
+    left: -3px;
 }
 
 /*review section design*/
@@ -432,8 +451,100 @@ h3.text {
 }
 
 .reviews-main span {
-    font-size: 1rem;
+    font-size: 15px;
     color: #fff;
     font-weight: 100;
-    border-top: 3px solid #fff;
+    border-top: 1px dashed #fff;
+    letter-spacing: 10px;
+}
+
+.reviews-content .colleagues {
+    margin-top: 3rem;
+}
+
+.swiper {
+    width: 500px;
+    height: 420px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px dashed #222;
+}
+
+.swiper-slide .colleagues_review p {
+    color: #444;
+    font-weight: 100;
+}
+
+.swiper-slide:nth-child(1n) {
+    background-color: yellow;
+}
+
+.swiper-slide:nth-child(2n) {
+    background-color: #eee;
+}
+
+.swiper-slide:nth-child(3n) {
+    background-color: yellow;
+}
+
+.swiper-slide:nth-child(4n) {
+    background-color: #eee;
+}
+
+.swiper-slide:nth-child(5n) {
+    background-color: yellow;
+}
+
+.swiper-slide:nth-child(6n) {
+    background-color: #eee;
+}
+
+.swiper-slide:nth-child(7n) {
+    background-color: yellow;
+}
+
+.swiper-slide:nth-child(8n) {
+    background-color: #eee;
+}
+
+.swiper-slide:nth-child(9n) {
+    background-color: yellow;
+}
+
+.swiper-slide:nth-child(10n) {
+    background-color: #eee;
+}
+
+/*about section design*/
+
+.about {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content {
+    margin: 0 15rem;
+}
+
+.about-main h2 {
+    color: #fff;
+    font-size: 7rem;
+}
+
+.about-main span {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 100;
+    border-top: 1px dashed #fff;
+    letter-spacing: 10px;
 }

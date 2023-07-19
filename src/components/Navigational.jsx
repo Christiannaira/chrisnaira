@@ -22,7 +22,7 @@ function Navigational() {
 
                     <a href="/" className="logo">Chris.</a>
                     <a href="#portfolio">Portfolio</a>
-                    <a href="about">About</a>
+                    <a href="#about">About</a>
                     <h2 onClick={() => {
                         Turn();
                     }}><i class='bx bx-moon' id="bx"></i></h2>

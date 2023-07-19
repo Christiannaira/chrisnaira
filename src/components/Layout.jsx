@@ -21,6 +21,7 @@ function Layout() {
             <Portfolio />
             <Skills />
             <Review />
+            <About />
 
 
         </>
