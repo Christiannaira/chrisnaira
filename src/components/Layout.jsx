@@ -5,6 +5,8 @@ import Portfolio from "./Portfolio";
 import Navigational from "./Navigational";
 import Skills from "./Skills";
 import Index from './Index';
+import Contact from "./Contact";
+import Links from './Links';
 import { useEffect } from "react";
 
 function Layout() {
@@ -22,7 +24,8 @@ function Layout() {
             <Skills />
             <Review />
             <About />
-
+            <Contact />
+            <Links />
 
         </>
     )

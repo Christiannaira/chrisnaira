@@ -4,6 +4,10 @@
     font-family: 'JetBrains Mono', monospace;
 }
 
+body {
+    background-color: #222;
+}
+
 section {
     padding: 3rem;
 }
@@ -341,7 +345,7 @@ h3.text {
 
 
 .portfolio-projects .project:hover {
-    transform: skewX(-5deg);
+    transform: skewX(-5deg) scale(1.1) translateY(-15px);
 }
 
 .portfolio-projects .project02 {
@@ -464,7 +468,9 @@ h3.text {
 
 .swiper {
     width: 500px;
-    height: 420px;
+    height:
+        600px;
+
 }
 
 .swiper-slide {
@@ -475,8 +481,8 @@ h3.text {
     font-size: 22px;
     font-weight: bold;
     color: #fff;
-    border: 1px dashed #222;
 }
+
 
 .swiper-slide .colleagues_review p {
     color: #444;
@@ -484,44 +490,67 @@ h3.text {
 }
 
 .swiper-slide:nth-child(1n) {
-    background-color: yellow;
+    background-color: rgb(219, 219, 22);
 }
 
 .swiper-slide:nth-child(2n) {
-    background-color: #eee;
+    background-color: #333;
 }
 
 .swiper-slide:nth-child(3n) {
     background-color: yellow;
 }
 
-.swiper-slide:nth-child(4n) {
-    background-color: #eee;
+
+.colleagues_review {
+    padding: 2rem;
+    border-top: 2px solid #444;
+    border-bottom: 2px solid #444;
+    background-color: #ddd;
 }
 
-.swiper-slide:nth-child(5n) {
-    background-color: yellow;
+.profile-img {
+    width: 130px;
+    border-radius: 100%;
 }
 
-.swiper-slide:nth-child(6n) {
-    background-color: #eee;
+.profile img {
+    border-radius: 100%;
 }
 
-.swiper-slide:nth-child(7n) {
-    background-color: yellow;
+.profile-info {
+    padding-left: 1rem;
 }
 
-.swiper-slide:nth-child(8n) {
-    background-color: #eee;
+.profile-info h2 {
+    color: #333;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #aaa;
 }
 
-.swiper-slide:nth-child(9n) {
-    background-color: yellow;
+.profile-info span {
+    color: #333;
+    font-size: 13px;
+    font-weight: 300;
 }
 
-.swiper-slide:nth-child(10n) {
-    background-color: #eee;
+.profile-info i {
+    color: dodgerblue;
 }
+
+.profile-text {
+    padding-top: 2rem;
+}
+
+.profile-text p {
+    font-size: 15px;
+    color: #ccc !important;
+    background-color: #222;
+    padding: 1rem;
+    font-weight: 200;
+    border-radius: 10px;
+}
+
 
 /*about section design*/
 
@@ -547,4 +576,114 @@ h3.text {
     font-weight: 100;
     border-top: 1px dashed #fff;
     letter-spacing: 10px;
+}
+
+.about-profile .col-md-6 {
+    margin: 1rem 0;
+}
+
+.about-profile-img {
+    position: relative;
+    display: block;
+}
+
+.about-profile-img img {
+    position: relative;
+    border-radius: 100%;
+    z-index: 1000;
+    box-shadow: -2px 30px 10px rgba(255, 255, 0, .4);
+    transform: rotate(-4deg);
+}
+
+.about-profile-img::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    box-shadow: -60px 80px 2px rgba(255, 255, 255, .2);
+}
+
+.about-profile-img::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ccc;
+    width: 200px;
+    height: 200px;
+    transform: translate(-10%, -90%);
+    border-radius: 40px;
+    box-shadow: 30px 80px 2px rgba(255, 255, 0, .4);
+}
+
+.about-profile-text {
+    background: #ccc;
+    padding: 3rem;
+    border-radius: 20px;
+    transform: rotate(4deg);
+    transition: .45s ease;
+}
+
+.about-profile-text:hover {
+    transform: rotate(7deg);
+}
+
+.about-profile-text img {
+    border-radius: 100%;
+}
+
+
+.about-profile p {
+    color: #222;
+    font-weight: 400;
+    line-height: 1.9;
+}
+
+.about-profile p span {
+    font-weight: 800;
+}
+
+/*contact section design*/
+
+.contact {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-content {
+    margin: 0 15rem;
+}
+
+.contact-main h2 {
+    color: #fff;
+    font-size: 7rem;
+}
+
+.contact-info {
+    padding: 2rem 0;
+}
+
+.contact-info h3 {
+    color: #cccc;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.contact-info span {
+
+    color: yellow;
+}
+
+/*links section design*/
+
+.links {
+    background-color: #222;
 }

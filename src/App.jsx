@@ -1,6 +1,10 @@
 import Layout from "./components/Layout";
 import { useEffect } from "react";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+
 function App() {
 
   useEffect(() => {
@@ -15,11 +19,15 @@ function App() {
     })
   }, []);
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
+
     <>
       <link rel="stylesheet"
         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"></link>
-
 
       <Layout />
 
