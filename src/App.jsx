@@ -1,12 +1,14 @@
-import Layout from "./components/Layout";
-import { useEffect } from "react";
-
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import { useEffect } from 'react';
+import Navigational from './components/Navigational';
+import Hero from './components/Hero';
+import SocialProof from './components/SocialProof';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import About from './components/About';
 
 function App() {
 
+  {/*cursor section layout*/ }
   useEffect(() => {
     let cursor = document.querySelector(".cursor");
     let cursor2 = document.querySelector(".cursor2");
@@ -19,23 +21,21 @@ function App() {
     })
   }, []);
 
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
 
     <>
       <link rel="stylesheet"
         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"></link>
 
-      <Layout />
+      <div className="cursor"></div>
+      <div className="cursor2"></div>
 
-
-
-
-
-
+      <Navigational />
+      <Hero />
+      <SocialProof />
+      <Skills />
+      <Projects />
+      <About />
     </>
   )
 }

@@ -1,49 +1,46 @@
-import FastForward from '../assets/fast-forward.gif';
+import Design from '../assets/design.png';
+import Code from '../assets/code.png';
 
 function Skills() {
     return (
         <>
-            <div data-aos="fade-up"
-                data-aos-duration="10000">
 
-                <section className="skills" id="skills">
+            {/*skills section layout*/}
+            <section className="skills" id="skills">
 
-                    <div className="skills-content container-sm">
+                <div className="skills-content container-fluid-sm">
 
-                        <div className="skills-main ">
-                            <h2 className='d-flex align-items-center'>SKILLS <img src={FastForward} alt="" width={'100px'} className='rounded-pill ms-3' /> </h2>
+                    <div className="skills-main">
+
+                        <h2>"I don't simply build websites"</h2>
+
+                    </div>
+
+                    <div className="skills-demo">
+
+                        <p>I transform ideas into reality, ensuring seamless user experiences that captivate and convert.</p>
+
+                    </div>
+
+                    <div className="skills-services">
+
+                        <div className="demo">
+
+                            <h2>01</h2>
+                            <p><span>Efficient programming</span> includes variety of factors. The code should be written clean, the website should be interactive and responsive, and the web application should be fast. These practices make the website optimized.</p>
                         </div>
 
-                        <div className="skills-category">
+                        <div className="demo">
 
-                            <div className="category category01">
-
-                                <h2>Front-End</h2>
-                                <p>Building front-end web applications from scratch using Html5, Css3, Javascript, React, Jquery and Bootstrap.</p>
-
-                            </div>
-
-                            <div className="category category02">
-
-                                <h2>Back-End</h2>
-                                <p>Developing back-end codes with the use of Php, Laravel, Mysql, Nodejs and Python.</p>
-
-                            </div>
-
-                            <div className="category category03">
-
-                                <h2>Tools</h2>
-                                <p>Maximizing development tools like Figma, Postman, Git, Vercel, Chatgpt and canva.</p>
-
-                            </div>
-
+                            <h2>02</h2>
+                            <p><span>Great UI/UX</span> design on the website is crucial, for it captivates the attention of the viewers. The website should be perfectly structured, good graphical designs, choice of colors, good choice of typography, high quality images, and clear contexts. This serves as an efficient web design.</p>
                         </div>
 
                     </div>
 
-                </section>
+                </div>
 
-            </div>
+            </section>
 
         </>
     )
