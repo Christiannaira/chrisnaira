@@ -1,5 +1,8 @@
 import Design from '../assets/design.png';
 import Code from '../assets/code.png';
+import Coding from '../assets/coding.gif';
+import Responsive from '../assets/computer.gif';
+import Algorithm from '../assets/algorithm.gif';
 
 function Skills() {
     return (
@@ -10,30 +13,55 @@ function Skills() {
 
                 <div className="skills-content container-fluid-sm">
 
-                    <div className="skills-main">
 
-                        <h2>"I don't simply build websites"</h2>
-
-                    </div>
-
-                    <div className="skills-demo">
-
-                        <p>I transform ideas into reality, ensuring seamless user experiences that captivate and convert.</p>
-
-                    </div>
 
                     <div className="skills-services">
 
-                        <div className="demo">
+                        <div className="service">
 
-                            <h2>01</h2>
-                            <p><span>Efficient programming</span> includes variety of factors. The code should be written clean, the website should be interactive and responsive, and the web application should be fast. These practices make the website optimized.</p>
+                            <h3>Front-end <br /> Development</h3>
+
+                            <div className="service-img">
+                                <img src={Coding} alt="" />
+                            </div>
+
+                            <div className="service-txt">
+
+                                <p>Creation of web design using figma, canva, illustrator and photoshop. Development through Html, Css, Javascript, Jquery, Bootstrap, and React</p>
+
+                            </div>
+
                         </div>
+                        <div className="service">
 
-                        <div className="demo">
+                            <h3>Backend <br /> Development</h3>
 
-                            <h2>02</h2>
-                            <p><span>Great UI/UX</span> design on the website is crucial, for it captivates the attention of the viewers. The website should be perfectly structured, good graphical designs, choice of colors, good choice of typography, high quality images, and clear contexts. This serves as an efficient web design.</p>
+                            <div className="service-img">
+                                <img src={Algorithm} alt="" />
+                            </div>
+
+                            <div className="service-txt">
+
+                                <p>Scripting the algorithm of the whole web application through Php, Python, Sql, Postman, Vercel, Git, Nodejs and Laravel.</p>
+
+                            </div>
+
+                        </div>
+                        <div className="service">
+
+                            <h3>Web <br /> Responsiveness</h3>
+
+                            <div className="service-img">
+                                <img src={Responsive} alt="" />
+                            </div>
+
+                            <div className="service-txt">
+
+                                <p>Ensuring the flexibility of the website in any device without losing its quality.</p>
+
+                            </div>
+
+
                         </div>
 
                     </div>

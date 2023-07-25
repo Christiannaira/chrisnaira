@@ -5,6 +5,7 @@ import SocialProof from './components/SocialProof';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import About from './components/About';
+import Cta from './components/Cta';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <Navigational />
       <Hero />
       <SocialProof />
+      <Cta />
       <Skills />
       <Projects />
       <About />
