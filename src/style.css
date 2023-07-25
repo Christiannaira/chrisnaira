@@ -603,7 +603,7 @@ h1.text {
     width: 100%;
 }
 
-.project-img:hover img {
+.project-img:hover>img {
     transform: scale(1.1);
 }
 
@@ -612,6 +612,7 @@ h1.text {
 }
 
 .project-txt h3 {
+    position: relative;
     background-color: #fff;
     color: #222;
     font-family: 'Anton';
@@ -620,6 +621,14 @@ h1.text {
     padding: 0 10px;
     display: inline-block;
     margin: 5rem 0 3rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.project-txt h3 img {
+    display: inline-block;
+    width: 50px;
+    border-radius: 100%;
 }
 
 .project-tech {
