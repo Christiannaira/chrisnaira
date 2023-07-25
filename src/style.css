@@ -672,7 +672,7 @@ h1.text {
 }
 
 .project-btn a {
-    display: inline-block;
+    display: inline-flex;
     background: #fff;
     color: #222;
     border: none;
@@ -680,8 +680,13 @@ h1.text {
     border-radius: 0;
     margin-right: 10px;
     border-radius: 30px;
-
+    align-items: center;
 }
+
+.project-btn a i {
+    margin-right: 5px;
+}
+
 
 .project-btn a:hover {
     background-color: yellow;
@@ -692,22 +697,8 @@ h1.text {
     background-color: rgb(211, 204, 204);
 }
 
+/*about section design*/
 
-
-/* .project-img .project-tools {
-    padding: 1rem;
+.about-main h2 {
+    color: #fff;
 }
-
-.project-img .project-tools span {
-    display: inline-block;
-    padding: 1px 5px;
-    background-color: #f1f1f1;
-    margin: 3px;
-    font-size: 14px;
-    transition: .2s ease;
-}
-
-.project-img .project-tools span:hover {
-    background-color: #222;
-    color: yellow;
-} */

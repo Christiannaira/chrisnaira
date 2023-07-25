@@ -1,11 +1,5 @@
 import { useEffect } from 'react';
-import Navigational from './components/Navigational';
-import Hero from './components/Hero';
-import SocialProof from './components/SocialProof';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import About from './components/About';
-import Cta from './components/Cta';
+import Layout from './components/Layout';
 
 function App() {
 
@@ -31,13 +25,7 @@ function App() {
       <div className="cursor"></div>
       <div className="cursor2"></div>
 
-      <Navigational />
-      <Hero />
-      <SocialProof />
-      <Cta />
-      <Skills />
-      <Projects />
-      <About />
+      <Layout />
     </>
   )
 }

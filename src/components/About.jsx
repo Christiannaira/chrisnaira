@@ -5,11 +5,11 @@ function About() {
 
             <section className="about" id="about">
 
-                <div className="about-content container">
+                <div className="about-content container-fluid-sm">
 
                     <div className="about-main">
 
-
+                        <h2>ABOUT</h2>
 
                     </div>
 

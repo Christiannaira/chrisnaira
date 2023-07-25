@@ -95,8 +95,8 @@ function SocialProof() {
 
                                         <div className="profile-info">
 
-                                            <h3 className='d-flex align-items-center'>Bryan Barnedo<i class='bx bxs-check-circle'></i></h3>
-                                            <span>Freelancer | Web designer</span>
+                                            <h3 className='d-flex align-items-center'>John Carl Torcuador<i class='bx bxs-check-circle'></i></h3>
+                                            <span>Social Media Manager</span>
 
                                             <div className="ratings">
                                                 <i class='bx bxs-star' ></i>
@@ -148,8 +148,8 @@ function SocialProof() {
 
                                         <div className="profile-info">
 
-                                            <h3 className='d-flex align-items-center'>Bryan Barnedo<i class='bx bxs-check-circle'></i></h3>
-                                            <span>Freelancer | Web designer</span>
+                                            <h3 className='d-flex align-items-center'>Reyson Carpio<i class='bx bxs-check-circle'></i></h3>
+                                            <span>Full-Stack Developer | Colleague</span>
 
                                             <div className="ratings">
                                                 <i class='bx bxs-star' ></i>

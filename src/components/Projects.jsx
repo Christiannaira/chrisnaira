@@ -51,8 +51,8 @@ function Projects() {
                                 </div>
 
                                 <div className="project-btn">
-                                    <a href="" className='btn btn-primary'>view website</a>
-                                    <a href="" className='btn btn-primary'>github repository</a>
+                                    <a href="https://estyle.vercel.app/" target='_blank' className='btn btn-primary'><i class='bx bx-link-alt'></i> view website</a>
+                                    <a href="https://github.com/Christiannaira/estyleproject" target='_blank' className='btn btn-primary'><i class='bx bxl-github' ></i>github repository</a>
                                 </div>
 
                             </div>
@@ -99,8 +99,8 @@ function Projects() {
                                 </div>
 
                                 <div className="project-btn">
-                                    <a href="" className='btn btn-primary'>view website</a>
-                                    <a href="" className='btn btn-primary'>github repository</a>
+                                    <a href="https://mini-project2-react.vercel.app/" target='_blank' className='btn btn-primary'> <i class='bx bx-link-alt'></i>view website</a>
+                                    <a href="https://github.com/Christiannaira/ehubproject" target='_blank' className='btn btn-primary'><i class='bx bxl-github' ></i>github repository</a>
                                 </div>
 
 
@@ -115,7 +115,7 @@ function Projects() {
 
                                     <h3>FuelFlow <img src={FastForward} alt="" /></h3>
 
-                                    <p>FuelFlow is a web application where a user can order a fuel for his vehicle just using his/her device converniently. <span>(currently building)</span></p>
+                                    <p>FuelFlow is a web application where a user can order a fuel for his vehicle just using his/her device converniently. <span>(currently rebuilding)</span></p>
                                 </div>
 
                                 <div className="project-tech">
@@ -144,8 +144,8 @@ function Projects() {
                                 </div>
 
                                 <div className="project-btn">
-                                    <a href="" className='btn btn-primary disabled'>not available for now</a>
-                                    <a href="" className='btn btn-primary'>github repository</a>
+                                    <a className='btn btn-primary disabled'>not available for now</a>
+                                    <a href="https://github.com/Christiannaira/fuelflowproject" target='_blank' className='btn btn-primary'><i class='bx bxl-github' ></i>github repository</a>
                                 </div>
 
 
